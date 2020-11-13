@@ -1,0 +1,11 @@
+#metacontent {
+	display: none;
+}
+
+#metacontent > p, #metacontent > ul {
+	font-size: 12px;
+}
+
+#metacontent > ul {
+	margin: 0;
+}

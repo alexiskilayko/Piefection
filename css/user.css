@@ -1,0 +1,33 @@
+.userstatus {
+	font-family: 'Open Sans', sans-serif;	
+	width: 100%;
+	position: absolute;
+	z-index: 2;
+}
+
+.userstatus p {
+	font-size: 12px;
+	color: white;
+    background-color: rgb(48,24,0,1);
+	width: auto;
+	float: right;
+	text-align: right;
+	padding: 15px 20px;
+	margin: 30px 30px;
+	border-radius: 15px;
+}
+
+.fa-user {
+	padding: 0 7px;
+}
+
+.userstatus a {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	border-bottom: 2px solid rgb(148,137,121, 0.8);
+	transition: border-bottom 0.3s;
+}
+.userstatus a:hover {
+	border-bottom: 2px solid rgb(148,137,121, 0.0);
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* CARD */
+
+.card {
+	font-family: 'Open Sans', sans-serif;	
+	width: 50%;
+	margin: 25px auto;
+	background-color: rgb(255,255,255,0.9);
+	padding: 50px;
+	border-radius: 15px;
+}
+.card button {
+	width: 100%;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	color: white;
+    background-color: rgb(48,24,0,1);
+	border-radius: 8px;
+	transition: background-color 0.3s;
+}
+.card button:hover {
+	background-color: rgb(48,24,0,0.8);
+}
+.card h2 {
+	text-align: center;
+	margin: 0;
+	font-size: 40px;
+}
+.card button, p, input {
+	font-size: 16px;
+}
+.card #div1 {
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: rgb(48,24,0,1);
+	border-bottom: 2px solid rgb(148,137,121, 0.8);
+	transition: border-bottom 0.3s;
+}
+a:hover {
+	border-bottom: 2px solid rgb(148,137,121, 0.0);
+}
+span {
+	font-size: 12px;
+}

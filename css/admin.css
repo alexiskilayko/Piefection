@@ -1,0 +1,22 @@
+body {
+	background: none;
+	background-color: rgb(148,137,121, 0.1);
+}
+
+.left, .center, .right {
+	float: left;
+}
+.left, .right, .right {
+	width: 33%;
+} 
+.center {
+	width: 34%;
+}
+.tabs:after {
+	content: "";
+	display: none;
+	clear: both;
+}
+.tabs button {
+	border-radius: 0px;
+}
